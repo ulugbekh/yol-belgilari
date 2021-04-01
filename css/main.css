@@ -228,6 +228,13 @@ p {
   margin: 50px 50px;
 }
 
+@media screen and (max-width: 525px) {
+  .savollar-block-inner {
+    margin: 50px 18px;
+    padding-top: 30px;
+  }
+}
+
 .savollar-block-inner .avto-link {
   width: 70px;
   height: 70px;
@@ -343,6 +350,7 @@ p {
     height: 100vh;
     width: 100vw;
     z-index: 20;
+    background-position: center;
   }
   .game #timer-item {
     color: white;
@@ -377,7 +385,7 @@ p {
     display: block;
   }
   .game .savollar-block {
-    max-width: 480px;
+    max-width: 90%;
     min-height: 200px;
     background-color: rgba(255, 255, 255, 0.5);
     margin: 0 auto;
